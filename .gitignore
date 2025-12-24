@@ -66,3 +66,8 @@ ENV/
 *.swp
 *.swo
 *~
+
+# Screenshots (opsiyonel - eğer resimleri commit etmek istiyorsan bu satırı sil)
+# screenshots/*.png
+# screenshots/*.jpg
+# screenshots/*.jpeg

@@ -2,6 +2,23 @@
 
 Almanya Schengen vizesi için belgelerin teknik ön kontrolünü ve risk değerlendirmesini yapan web uygulaması.
 
+## 📸 Ekran Görüntüleri
+
+### Ana Sayfa - Belge Seçimi
+![Ana Sayfa](./screenshots/1.png)
+
+### Yükleme Sayfası
+![Yükleme Sayfası](./screenshots/2.png)
+
+### Sonuç Sayfası - Hazırlık Skoru
+![Sonuç Sayfası](./screenshots/3.png)
+
+### Belge Detayları
+![Belge Detayları](./screenshots/4.png)
+
+### Belge Kontrol Listesi
+![Belge Kontrol Listesi](./screenshots/5.png)
+
 ## 📋 İçindekiler
 
 - [Özellikler](#-özellikler)
