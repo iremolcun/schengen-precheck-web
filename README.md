@@ -19,7 +19,7 @@ Almanya Schengen vizesi için belgelerin teknik ön kontrolünü ve risk değerl
 ### Belge Kontrol Listesi
 ![Belge Kontrol Listesi](./screenshots/5.png)
 
-## 📋 İçindekiler
+##  İçindekiler
 
 - [Özellikler](#-özellikler)
 - [Teknolojiler](#-teknolojiler)
@@ -31,7 +31,7 @@ Almanya Schengen vizesi için belgelerin teknik ön kontrolünü ve risk değerl
 - [Geliştirme](#-geliştirme)
 - [Notlar](#-notlar)
 
-## ✨ Özellikler
+##  Özellikler
 
 - **Otomatik Belge Tanıma**: Pasaport, banka dökümü, seyahat sigortası, uçuş rezervasyonu, konaklama belgesi ve başvuru formunu otomatik olarak tanır
 - **OCR Desteği**: PDF ve görüntü formatlarında belgeleri OCR ile okur
@@ -41,7 +41,7 @@ Almanya Schengen vizesi için belgelerin teknik ön kontrolünü ve risk değerl
 - **KVKK Uyumlu**: Belgeler kalıcı olarak saklanmaz, analiz sonrası otomatik silinir
 - **Türkçe Arayüz**: Tam Türkçe kullanıcı arayüzü
 
-## 🛠 Teknolojiler
+##  Teknolojiler
 
 ### Frontend
 - **Next.js 16** - React framework
@@ -56,7 +56,7 @@ Almanya Schengen vizesi için belgelerin teknik ön kontrolünü ve risk değerl
 - **Tesseract OCR** - Metin tanıma
 - **Uvicorn** - ASGI server
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
 schengen-precheck-web/
@@ -79,7 +79,7 @@ schengen-precheck-web/
     └── venv/                     # Python virtual environment
 ```
 
-## 🚀 Kurulum
+##  Kurulum
 
 ### Gereksinimler
 
@@ -152,7 +152,7 @@ Backend `http://127.0.0.1:8000` adresinde çalışacak.
 nohup uvicorn main:app --host 127.0.0.1 --port 8000 --reload > /tmp/backend.log 2>&1 &
 ```
 
-## 📖 Kullanım
+##  Kullanım
 
 ### 1. Uygulamayı Başlat
 
@@ -167,7 +167,7 @@ npm run dev
 cd schengen-precheck-web/schengen-precheck-api
 source venv/bin/activate
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
-```
+```ı
 
 ### 2. Belgeleri Yükle
 
@@ -235,7 +235,7 @@ Belgeleri analiz eder.
 }
 ```
 
-## 📄 Desteklenen Belge Türleri
+##  Desteklenen Belge Türleri
 
 ### Zorunlu Belgeler (CORE_REQUIRED)
 - **Pasaport**: Geçerlilik tarihi kontrolü
@@ -300,7 +300,7 @@ uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 - `app/result/page.tsx`: Sonuç sayfası
 - `app/components/`: Yeniden kullanılabilir bileşenler
 
-## ⚠️ Notlar
+##  Notlar
 
 ### Önemli Uyarılar
 
@@ -336,11 +336,11 @@ lsof -ti:8000 | xargs kill -9
 - PDF yerine yüksek çözünürlüklü görüntü formatı deneyin
 - MRZ bölümünün (pasaport alt kısmı) tamamen görünür olduğundan emin olun
 
-## 📝 Lisans
+##  Lisans
 
 Bu proje özel kullanım içindir.
 
-## 👥 Katkıda Bulunma
+##  Katkıda Bulunma
 
 1. Fork yapın
 2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
@@ -348,7 +348,7 @@ Bu proje özel kullanım içindir.
 4. Push yapın (`git push origin feature/amazing-feature`)
 5. Pull Request açın
 
-## 📧 İletişim
+##  İletişim
 
 Sorularınız veya önerileriniz için issue açabilirsiniz.
 
