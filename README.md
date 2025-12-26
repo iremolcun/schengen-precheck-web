@@ -254,7 +254,7 @@ Belgeleri analiz eder.
 - Öğrenci belgesi
 - ve daha fazlası...
 
-## 🛠 Geliştirme
+##  Geliştirme
 
 ### Frontend Geliştirme
 
